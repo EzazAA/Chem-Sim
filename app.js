@@ -6,7 +6,8 @@ const elementDetails = document.getElementById('element-details');
 const detailsCloseBtn = document.querySelector('.details-close-btn');
 const elementSearch = document.getElementById('element-search');
 const filterButtons = document.querySelectorAll('.filter-btn');
-const themeToggleBtn = document.getElementById('theme-toggle-btn');
+
+
 
 // State
 let activeElement = null;
@@ -16,7 +17,6 @@ let activeFilter = 'all';
 function init() {
   createPeriodicTable();
   setupEventListeners();
-  checkUserThemePreference();
 }
 
 // Create the periodic table layout
@@ -92,8 +92,8 @@ function setupEventListeners() {
     });
   });
   
-  // Theme toggle
-  themeToggleBtn.addEventListener('click', toggleTheme);
+
+  
   
   // Keyboard shortcuts
   document.addEventListener('keydown', (e) => {
@@ -180,26 +180,11 @@ function formatCategoryName(category) {
     .join(' ');
 }
 
-// Theme management
-function toggleTheme() {
-  const isDark = document.body.classList.toggle('dark-mode');
-  localStorage.setItem('darkMode', isDark ? 'true' : 'false');
-}
 
-function checkUserThemePreference() {
-  // Check for saved theme preference
-  const savedTheme = localStorage.getItem('darkMode');
-  
-  if (savedTheme === 'true') {
-    document.body.classList.add('dark-mode');
-  } else if (savedTheme === 'false') {
-    document.body.classList.remove('dark-mode');
-  } else {
-    // If no saved preference, check system preference
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    document.body.classList.toggle('dark-mode', prefersDarkMode);
-  }
-}
+
+
+
+
 
 // Initialize the app when DOM is ready
 document.addEventListener('DOMContentLoaded', init);

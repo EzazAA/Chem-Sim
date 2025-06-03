@@ -195,8 +195,8 @@ h1 {
 
 .periodic-table {
   display: grid;
-  grid-template-columns: repeat(18, 70px);
-  grid-template-rows: repeat(10, 70px);
+  grid-template-columns: repeat(18,67px);
+  grid-template-rows: repeat(10, 72px);
   gap: 4px;
   min-width: max-content;
   position: relative;

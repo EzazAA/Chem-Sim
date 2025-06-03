@@ -1662,7 +1662,7 @@ const elementPositions = {
   // Row 1
   1: { row: 1, col: 1 },
   2: { row: 1, col: 18 },
-  
+
   // Row 2
   3: { row: 2, col: 1 },
   4: { row: 2, col: 2 },
@@ -1672,7 +1672,7 @@ const elementPositions = {
   8: { row: 2, col: 16 },
   9: { row: 2, col: 17 },
   10: { row: 2, col: 18 },
-  
+
   // Row 3
   11: { row: 3, col: 1 },
   12: { row: 3, col: 2 },
@@ -1682,7 +1682,7 @@ const elementPositions = {
   16: { row: 3, col: 16 },
   17: { row: 3, col: 17 },
   18: { row: 3, col: 18 },
-  
+
   // Row 4
   19: { row: 4, col: 1 },
   20: { row: 4, col: 2 },
@@ -1702,7 +1702,7 @@ const elementPositions = {
   34: { row: 4, col: 16 },
   35: { row: 4, col: 17 },
   36: { row: 4, col: 18 },
-  
+
   // Row 5
   37: { row: 5, col: 1 },
   38: { row: 5, col: 2 },
@@ -1722,11 +1722,11 @@ const elementPositions = {
   52: { row: 5, col: 16 },
   53: { row: 5, col: 17 },
   54: { row: 5, col: 18 },
-  
-  // Row 6
+
+  // Row 6 (main table)
   55: { row: 6, col: 1 },
   56: { row: 6, col: 2 },
-  57: { row: 6, col: 3 },
+  57: { row: 6, col: 3 }, // La
   72: { row: 6, col: 4 },
   73: { row: 6, col: 5 },
   74: { row: 6, col: 6 },
@@ -1742,11 +1742,11 @@ const elementPositions = {
   84: { row: 6, col: 16 },
   85: { row: 6, col: 17 },
   86: { row: 6, col: 18 },
-  
-  // Row 7
+
+  // Row 7 (main table)
   87: { row: 7, col: 1 },
   88: { row: 7, col: 2 },
-  89: { row: 7, col: 3 },
+  89: { row: 7, col: 3 }, // Ac
   104: { row: 7, col: 4 },
   105: { row: 7, col: 5 },
   106: { row: 7, col: 6 },
@@ -1762,8 +1762,8 @@ const elementPositions = {
   116: { row: 7, col: 16 },
   117: { row: 7, col: 17 },
   118: { row: 7, col: 18 },
-  
-  // Lanthanides (Row 8)
+
+  // Lanthanides (Row 8, f-block)
   58: { row: 8, col: 4 },
   59: { row: 8, col: 5 },
   60: { row: 8, col: 6 },
@@ -1778,8 +1778,8 @@ const elementPositions = {
   69: { row: 8, col: 15 },
   70: { row: 8, col: 16 },
   71: { row: 8, col: 17 },
-  
-  // Actinides (Row 9)
+
+  // Actinides (Row 9, f-block)
   90: { row: 9, col: 4 },
   91: { row: 9, col: 5 },
   92: { row: 9, col: 6 },
